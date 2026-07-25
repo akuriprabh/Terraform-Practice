@@ -9,3 +9,7 @@
 .terraform.lock.hcl
 # documents
 *.doc
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
