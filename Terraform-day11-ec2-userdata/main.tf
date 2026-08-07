@@ -15,7 +15,7 @@ resource "aws_instance" "name" {
                 #We can modift existig user data script by using provisoners without delete and recreate the instance. We can use provisioners to run commands on the instance after it has been created, allowing us to modify the user data script or perform any other necessary configuration changes without needing to delete and recreate the instance.
            
     tags = {    
-        Name = "MyInstanceterm1"
+        Name = "MyInstance"
     }
   
 }
